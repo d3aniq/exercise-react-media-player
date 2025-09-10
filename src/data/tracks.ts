@@ -1,4 +1,4 @@
-import { Track } from '../types';
+import type { Track } from '../types';
 
 export const tracks: Track[] = [
     { id: 't1', title: 'A Rocket to the Moon', artist: 'Like we used to', cover: '/assets/cover1.jpg', duration: 222, favorite: true },
